@@ -1,4 +1,4 @@
-package br.com.gus.MainPack;
+package br.com.gus.mainpack;
 
 import br.com.gus.functions.ConvertToJson;
 import br.com.gus.functions.SearchAddress;
