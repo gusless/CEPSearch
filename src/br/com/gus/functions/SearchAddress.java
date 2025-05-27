@@ -14,6 +14,10 @@ public class SearchAddress {
 
     public void search(String cep){
         try {
+            cep = cep.replace("-","");
+            cep = cep.replace(".","");
+            cep = cep.replace(" ","");
+
             ApiConnect apiConnect = new ApiConnect(cep);
             String json = apiConnect.getResponse().body();
 
